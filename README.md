@@ -58,5 +58,12 @@ I tried a couple of ways to retrieve the URL of queries results.
     
     need to crawl a large amount of data from the search results.
     
-    
+To sum up, way 1. and 3. are applicable to normal developer.
+
+To avoid being blocked, we can set a random sleep time with random.uniform(X,Y).
+
+For example, I set X = 3.0, Y = 10.0 with way 1. Then, this time I survived longer but finally got blocked....
+
+It proved that Google do not allow webpage crawler again.
+
 Hope you use them successfully!
