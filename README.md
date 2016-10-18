@@ -4,6 +4,7 @@ The project is to search a query and then crawl the URL retrieved.
 I tried a couple of ways to retrieve the URL of queries results.
 
 1. Python Module: google
+
     Here is the website: http://pythonhosted.org/google/
     Installation: pip install google
     
@@ -13,6 +14,7 @@ I tried a couple of ways to retrieve the URL of queries results.
     So, use this way carefully.
     
 2. Google Search API: Custome Search Engine (CSE)
+
     You can set the service here: https://cse.google.com/cse/all
     There are lots of tutorial on the Web. Google it!
     The only thing is aquiring keys: Developer Key and API Key (aka cx)
@@ -25,6 +27,7 @@ I tried a couple of ways to retrieve the URL of queries results.
     Now, Google Search is a product now.
     
 3. Bing API
+
     Register in this websit: https://datamarket.azure.com/dataset/bing/search
     Get API key in this website: https://datamarket.azure.com/account/keys
     
