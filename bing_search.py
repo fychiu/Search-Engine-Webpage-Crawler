@@ -40,10 +40,9 @@ def bing_api(query, source_type = "Web", top = 10, format = 'json'):
 '''
 # Example:
 
-res = bing_api(q='Bing API')
+res = bing_api(q='Bing API')['d']['results']
 
-for item in res:
-    re = item['d']['results']
+for re in res:
     print re[“Description”], re[“Title”], re[“Url”], re[“__metadata”], re[“DisplayUrl”], re[“ID”]
 
 '''
