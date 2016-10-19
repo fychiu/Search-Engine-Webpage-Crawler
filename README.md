@@ -47,6 +47,8 @@ I tried a couple of ways to retrieve the URL of queries results.
     
     Get API key in this website: https://datamarket.azure.com/account/keys
     
+    Look the quota left: https://datamarket.azure.com/account/datasets
+    
     
     Then you can use my code directly without any installation.
     
@@ -58,7 +60,13 @@ I tried a couple of ways to retrieve the URL of queries results.
     
     need to crawl a large amount of data from the search results.
     
+    ###NOTE### Suggest you set "top" to 50 to save your quota
+    
+    The Service Rule says the response time is 1.5 seconds. So, I set it to uniform(1.5,2.0).
+    
 To sum up, way 1. and 3. are applicable to normal developer.
+
+Free Bing Search API has the best efficiency in comparison to free version of Google CSE.
 
 To avoid being blocked, we can set a random sleep time with random.uniform(X,Y).
 
